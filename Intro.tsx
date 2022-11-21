@@ -1,15 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-class Intro extends Component {
-    render () {
-        return (
-            <View>
-                <Text>
-                    hello world
-                </Text>
-            </View>
-        )
-    }
+const Intro = (props: any) => {
+  console.log("rendering child");
+  return (
+    <View>
+      <Text>
+        Child View
+      </Text>
+    </View>
+  )
 }
 export default Intro;
