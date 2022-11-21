@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, memo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const Intro = (props: any) => {
@@ -11,4 +11,4 @@ const Intro = (props: any) => {
     </View>
   )
 }
-export default Intro;
+export default memo(Intro);
